@@ -230,7 +230,6 @@ flex: none;
 .grey-notice button {
   width: 120px;
   background-color: rgb(37 37 37);
-
 }
 
 .left-hero button a, .grey-notice button a {
@@ -266,7 +265,20 @@ flex: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 110px;
+  padding: 30px 110px;
+  gap: 20px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button-box button {
+  /* BUTTON VERTICAL SPACING */
+  margin: 25px 25px;
 }
 
 .grey-notice h1 {
