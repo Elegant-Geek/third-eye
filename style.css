@@ -199,8 +199,7 @@ padding: 0px 32px 0px 0px;
 flex: none;
 } */
 
-.left-hero button, .red-notice button {
-  background-color: rgba(145,10,10,1);
+.left-hero button, .grey-notice button {
   border: none;
   border-radius: 6px;
   padding: 7px 22px;
@@ -212,13 +211,16 @@ flex: none;
 
 .left-hero button {
   width: 180px;
+  background-color: rgba(145,10,10,1);
 }
 
-.red-notice button {
+.grey-notice button {
   width: 120px;
+  background-color: rgb(37 37 37);
+
 }
 
-.left-hero button a, .red-notice button a {
+.left-hero button a, .grey-notice button a {
   color: white;
 }
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
@@ -226,27 +228,27 @@ flex: none;
   background-color: white;
 }
 
-.left-hero button:hover a, .red-notice button:hover a {
+.left-hero button:hover a, .grey-notice button:hover a {
   color: black;
 }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
 
-.red-notice button {
+.grey-notice button {
   border: solid 1px white;
 }
 
-.red-notice button a {
+.grey-notice button a {
   color: white;
 }
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
-.red-notice button:hover {
+.grey-notice button:hover {
   background: white;
 }
 
 
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
-.red-notice {
-  background-color: #620202;
+.grey-notice {
+  background-color: #373434;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -254,13 +256,13 @@ flex: none;
   padding: 45px 110px;
 }
 
-.red-notice h1 {
+.grey-notice h1 {
   font-size: 24px;
   color: white;
   margin: 0px;
 }
 
-.red-notice p, .footer p, .footer a {
+.grey-notice p, .footer p, .footer a {
   color: white;
   font-size: 16px;
   margin: 0px;
