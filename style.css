@@ -54,7 +54,7 @@ align-items: flex-start;
 .header {
   /* HERE IS WHERE YOU ADJUST HEADER PADDING SEPARATELY FROM THE MAIN FIRST CONTAINER 
   (i removed header div and placed it above/outside the first container div) */
-padding: 0rem 5rem;
+padding: 0rem 8rem;
 display: flex;
 justify-content: space-between;
 gap: 25px;
