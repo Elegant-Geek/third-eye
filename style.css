@@ -30,6 +30,7 @@ body {
 
 button > a {
 font-family: 'Libre Baskerville', sans-serif;
+text-align: center;
 }
 .first-container, .second-container, .third-container, .fourth-container {
 display: flex;
@@ -215,7 +216,7 @@ flex: none;
 .left-hero button, .grey-notice button {
   border: none;
   border-radius: 6px;
-  padding: 7px 22px;
+  padding: 7px 15px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -263,28 +264,28 @@ flex: none;
   background-color: #373434;
   border-radius: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 30px 110px;
+  padding: 15px 150px;
   gap: 20px;
 }
 
 .button-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .button-box button {
   /* BUTTON VERTICAL SPACING */
-  margin: 25px 25px;
+  margin: 8px 0px;
 }
 
 .grey-notice h1 {
   font-size: 24px;
   color: white;
-  margin: 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .grey-notice p, .footer p, .footer a {
