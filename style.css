@@ -39,7 +39,7 @@ padding: 0rem 10rem;
 flex-wrap: wrap;
 }
 
-.first-container a:hover {
+.header a:hover {
     color: white;
 }
 
