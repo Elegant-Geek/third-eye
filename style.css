@@ -9,6 +9,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 a,
 a label {
@@ -96,7 +97,7 @@ color: white;
 .first-container {
   /* background-color: #063441; */
   background: rgb(145,10,10);
-  background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 21%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 15%, rgba(0,0,0,1) 100%);
   /* SOURCE: https://cssgradient.io/ */
   /* old 0 color was #840f0f */
 }
@@ -105,7 +106,8 @@ display: flex;
 justify-content: center;
 }
 .second-container {
-padding: 20px 0px 50px 0px;
+background-color: rgba(145,10,10,1);
+  padding: 20px 0px 50px 0px;
 }
 .third-container {
 /* background-color: #E5E7EB; */
@@ -116,9 +118,6 @@ height: 100%;
 background-size: cover;
 background-attachment: fixed;
 background-repeat:no-repeat;
-
-
-
 padding: 300px 15rem;
 }
 .fourth-container {
@@ -141,7 +140,7 @@ text-align: center;
 gap: 5px;
 }
 .tank p {
-  color: #063441;
+  color: white;
   font-size: 18px;
   margin: 0px;
 }
@@ -154,14 +153,14 @@ gap: 5px;
 .left-hero h1 {
   font-family: treefrog;
   font-size: 48px;
-  color: #F9FAF8;
+  color: white;
   font-weight: 900;
   margin: 0px;
 }
 
 .second-header h2 {
   font-size: 36px;
-  color: #063441;
+  color: white;
   font-weight: 900;
 }
 
@@ -200,8 +199,8 @@ padding: 0px 32px 0px 0px;
 flex: none;
 } */
 
-.left-hero button, .blue-notice button {
-  background-color: #0d576b;
+.left-hero button, .red-notice button {
+  background-color: rgba(145,10,10,1);
   border: none;
   border-radius: 6px;
   padding: 7px 22px;
@@ -215,42 +214,39 @@ flex: none;
   width: 180px;
 }
 
-.blue-notice button {
+.red-notice button {
   width: 120px;
 }
 
-.left-hero button a, .blue-notice button a {
-  color: #F9FAF8;
+.left-hero button a, .red-notice button a {
+  color: white;
 }
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
 .left-hero button:hover {
-  background-color: #F9FAF8;
+  background-color: white;
 }
 
-.left-hero button:hover a {
-  color: #0d576b;
+.left-hero button:hover a, .red-notice button:hover a {
+  color: black;
 }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
 
-.blue-notice button {
-  border: solid 1px #F9FAF8;
+.red-notice button {
+  border: solid 1px white;
 }
 
-.blue-notice button a {
-  color: #F9FAF8;
+.red-notice button a {
+  color: white;
 }
 /* CHANGING LINK A COLOR WITH BUTTON BG ON HOVER */
-.blue-notice button:hover {
-  background: #F9FAF8;
-  color: #0d576b;
+.red-notice button:hover {
+  background: white;
 }
 
-.blue-notice button:hover a {
-  color: #0d576b;
-}
+
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
-.blue-notice {
-  background-color: #0d576b;
+.red-notice {
+  background-color: #620202;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -258,13 +254,13 @@ flex: none;
   padding: 45px 110px;
 }
 
-.blue-notice h1 {
+.red-notice h1 {
   font-size: 24px;
-  color: #F9FAF8;
+  color: white;
   margin: 0px;
 }
 
-.blue-notice p, .footer p, .footer a {
+.red-notice p, .footer p, .footer a {
   color: white;
   font-size: 16px;
   margin: 0px;
