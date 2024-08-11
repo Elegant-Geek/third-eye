@@ -81,18 +81,24 @@ align-items: center;
 flex-wrap: wrap;
 }
 
-.header a, .left-hero p {
+.header a, .left-hero {
   font-size: 18px;
-  color: #75dde7;
   text-decoration: none;
+}
+
+.header a {
+  color: #d70f0f;
 }
 .left-hero p {
 margin-top: 0px;
+color: white;
 }
 .first-container {
   /* background-color: #063441; */
-  background: rgb(0,24,36);
-  background: linear-gradient(180deg, rgba(0,24,36,1) 0%, rgba(18,76,90,1) 52%, rgba(45,150,175,1) 100%);
+  background: rgb(145,10,10);
+  background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 21%, rgba(0,0,0,1) 100%);
+  /* SOURCE: https://cssgradient.io/ */
+  /* old 0 color was #840f0f */
 }
 .second-header {
 display: flex;
@@ -166,7 +172,7 @@ gap: 5px;
 .header h3 > a {
   font-family: treefrog;
   font-size: 24px;
-  color: #75dde7;
+  color: #d70f0f;
   margin: 0px;
   flex: none;
 }
@@ -259,7 +265,7 @@ flex: none;
 }
 
 .blue-notice p, .footer p, .footer a {
-  color: #75dde7;
+  color: white;
   font-size: 16px;
   margin: 0px;
 }
@@ -269,8 +275,8 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 padding: 40px 0px;
-background: rgb(0,24,36);
-background: linear-gradient(0deg, rgba(0,24,36,1) 0%, rgba(18,76,90,1) 52%, rgba(45,150,175,1) 100%);
+background: rgb(145,10,10);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
 }
 
 .social-media-container {
