@@ -47,7 +47,7 @@ flex-wrap: wrap;
 .both-heroes {
 display: flex;
 flex-direction: row;
-padding: 80px 0px 80px 0px;
+padding: 80px 0px 50px 0px;
 flex-wrap: wrap; 
 justify-content: center;
 align-items: flex-start;
@@ -85,7 +85,7 @@ flex-direction: column;
 /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
 justify-content: center;
 padding-right: 40px;
-padding-bottom: 65px;
+padding-bottom: 80px;
 max-width: 453px;
 }
 .right-hero {
@@ -100,7 +100,7 @@ flex-wrap: wrap;
   /* OMG IT WORKED */
   /* SOURCE: https://stackoverflow.com/questions/885835/position-an-image-outside-of-its-container */
   position: relative;
-  top: -35px;
+  top: -40px;
   z-index: 99;
 }
 .header a {
