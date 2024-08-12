@@ -270,8 +270,10 @@ flex: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 50px;
+  padding: 15px 300px;
   gap: 40px;
+  /* flex-wrap: wrap; */
+  width: 100%;
 }
 
 .button-box {
