@@ -56,13 +56,13 @@ align-items: flex-start;
 .header {
   /* HERE IS WHERE YOU ADJUST HEADER PADDING SEPARATELY FROM THE MAIN FIRST CONTAINER 
   (i removed header div and placed it above/outside the first container div) */
-padding: 0rem 8rem;
+padding: 0rem 5rem;
 display: flex;
-justify-content: space-between;
+/* space around for header rather than space between looks cleaner with a minimized window because it keeps everything still centered! */
+justify-content: space-around;
 gap: 25px;
 /* allow elements to wrap when window is collapsed */
 flex-wrap: wrap;
-/* padding: 25px 0px 0px 0px; */
 font-size: 30px;
 font-family: treefrog;
 }
