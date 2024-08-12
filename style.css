@@ -85,7 +85,7 @@ flex-direction: column;
 /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
 justify-content: center;
 padding-right: 40px;
-padding-bottom: 30px;
+padding-bottom: 65px;
 max-width: 453px;
 }
 .right-hero {
@@ -93,6 +93,15 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+
+}
+.right-hero img {
+  width: 450px; 
+  /* OMG IT WORKED */
+  /* SOURCE: https://stackoverflow.com/questions/885835/position-an-image-outside-of-its-container */
+  position: relative;
+  top: -35px;
+  z-index: 99;
 }
 .header a {
   text-decoration: none;
@@ -174,10 +183,6 @@ gap: 5px;
   font-weight: 900;
 }
 
-.right-hero img {
-  width: 450px;
-  height: 225px;
-}
 .header h3 > a {
   font-size: 24px;
   color: #d70f0f;
