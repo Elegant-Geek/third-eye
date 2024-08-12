@@ -326,8 +326,7 @@ display: flex;
 gap: 30px;
 }
 
-
-
+/* ***************************************** INDIVIDUAL PAGES ***************************************** */
 .comic-menu-options h1 {
   line-height: 2.0;
 }
@@ -341,9 +340,14 @@ height: 100%;
   padding-bottom: 90px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.rows {
+.first-container > .rows {
   display: flex;
   flex-direction: row;
+  justify-content: left;
+  width: 745px;
+  flex-wrap: wrap;
+  gap: 50px;
 }
