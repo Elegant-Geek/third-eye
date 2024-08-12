@@ -347,7 +347,7 @@ height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: left;
-  width: 745px;
+  width: 655px;
   flex-wrap: wrap;
   gap: 50px;
 }
