@@ -18,7 +18,7 @@ a label {
 }
 p {
 padding: 16px 0px;
-line-height: 1.75;
+line-height: 1.5;
 }
 /* ALL DIVS GIVEN BORDER-BOX to avoid redundancy in code and to make formatting consistent when adding padding! */
 div {
@@ -141,7 +141,7 @@ background-repeat:no-repeat;
 padding: 300px 15rem;
 }
 .fourth-container {
-margin: 100px 0px;
+margin: 50px 0px;
 }
 .all-tanks {
 display: flex;
