@@ -352,7 +352,7 @@ height: 100%;
   gap: 50px;
 }
 
-.rows a {
+.rows a, .sub-menu a {
   color: white;
 }
 
