@@ -326,3 +326,18 @@ display: flex;
 gap: 30px;
 }
 
+
+
+.comic-menu-options h1 {
+  line-height: 2.0;
+}
+
+.comic-menu-options > .first-container{
+  /* allows the three menus options to extend the height of the page if needed when window is scrunched */
+height: 100%;
+  /* raising the menu options */
+  padding-top: 10px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
