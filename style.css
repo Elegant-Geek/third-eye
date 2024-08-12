@@ -356,6 +356,10 @@ height: 100%;
   color: white;
 }
 
+.sub-menu {
+  flex-direction: column;
+}
+
 .sub-menu a {
   color: #d70f0f;
 }
@@ -367,16 +371,18 @@ height: 100%;
 /* ***************************************** COMIC PAGES ***************************************** */
 .sub-menu h3 {
   padding-bottom: 10px;
-  text-align: right;
-  width: 55vw;
   color: white;
 }
-.sub-menu {
+.annoyed, .sub-menu {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.annoyed {
+  width: 80vw;
+}
+
 .comic-box-container {
   background-color: black;
   height: 100%;
