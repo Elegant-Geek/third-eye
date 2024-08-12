@@ -37,7 +37,6 @@ text-align: center;
 display: flex;
 justify-content: center;
 flex-direction: column;
-padding: 0rem 10rem;
 flex-wrap: wrap;
 }
 
@@ -140,9 +139,7 @@ background-attachment: fixed;
 background-repeat:no-repeat;
 padding: 300px 15rem;
 }
-.fourth-container {
-margin: 50px 0px;
-}
+
 .all-tanks {
 display: flex;
 gap: 75px;
@@ -273,8 +270,8 @@ flex: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 150px;
-  gap: 20px;
+  padding: 15px 50px;
+  gap: 40px;
 }
 
 .button-box {
