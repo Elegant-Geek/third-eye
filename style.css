@@ -151,14 +151,15 @@ gap: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50vw;
+  width: 614px;
   flex-wrap: wrap;
-  padding: 50px;
+  padding: 50px 20px;
   border: 1px solid white;
 }
 
 .about-section p {
   text-indent:50px;
+  /* font-size: 16px; */
   padding: 10px;
   margin: 0px;
   text-align: justify;
@@ -173,7 +174,7 @@ because you want the div height identical to the shavo image height. if you were
 then when doing flex wrap, the about section would overflow into the meet the band members section 
 so i had to basically set the shavo block height, then match the image height to whatever the height was set to for the shavo block */
 .shavo-block {
-  height: 620px;
+  height: 700px;
 }
 
 .shavo-block img {
