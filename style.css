@@ -449,22 +449,9 @@ text-align: center;
 
 
 /* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
-@media (max-width: 600px) {
 
-  img {
-    max-width: 100vw;
-  }
 
-  .shavo-block {
-    height: auto;
-  }
-
-  .left-hero {
-    padding: 0px 30px 80px 30px;
-  }
-
-}
-
+/* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
   .grey-notice {
     flex-wrap: wrap;
@@ -473,7 +460,35 @@ text-align: center;
     padding: 50px;
   }
 
+  .both-heroes {
+    padding-top: 20px;
+  }
+
   .button-box {
     gap: 30px;
+  }
+}
+
+/* narrower query (when you reach a 600 pixel width do...) */
+@media (max-width: 600px) {
+  /* allows images like 3rd eye serj accent piece and spooky shavo to fill whole width of page for smaller displays */
+  img {
+    max-width: 100vw;
+  }
+  /* allows the height to update and override the fixed shavo-block div height previously established on the desktop version */
+  .shavo-block {
+    height: auto;
+  }
+  /* center left hero on homepage (padding was previously used in a strange way for desktop (like 0 40 80 0))*/
+  .left-hero {
+    padding: 0px 30px 80px 30px;
+  }
+  /* decrease the main THIRD EYE red header font at top to 30px so that eye logos fit and overall look is centered */
+  .header h1 {
+    font-size: 30px;
+  }
+  .all-tanks {
+   /* closes the gap between all the character descriptions for mobile */
+    gap: 10px;
   }
 }
