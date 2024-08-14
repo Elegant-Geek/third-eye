@@ -47,7 +47,7 @@ flex-wrap: wrap;
 .both-heroes {
 display: flex;
 flex-direction: row;
-padding: 80px 0px 45px 0px;
+padding: 80px 80px 45px 80px;
 flex-wrap: wrap; 
 justify-content: center;
 align-items: flex-start;
@@ -500,7 +500,7 @@ text-align: center;
 /* all comic pages take up more space on the screen now for mobile pages */
 /* DONT FORGET THE COMMA BETWEEN CLASSES (that's why it wasn't working) */
   .annoyed, .comic-box-container img {
-    width: 90vw;
+    width: 95vw;
   }
 }
 
@@ -535,10 +535,22 @@ text-align: center;
 }
 
 @media (max-width: 375px) {
+  /* give header less padding to allow triangles in the logo to breathe) */
+
   .header {
     padding: 0rem 1rem;
   }
+
+  /* allow the triangles to wrap in the header if things get too tight */
   .title-tank {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+
+/* for super skinny dimensions, allow social media icons to form into a square not a straight line */
+  .social-media-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
