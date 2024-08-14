@@ -134,10 +134,13 @@ padding: 20px 0px 50px 0px;
 display: flex;
 align-items: center;
 /* space around rather than center allows shavo to adapt when screen is minimized */
-justify-content: center;
+justify-content:center;
 flex-direction: row;
 flex-wrap: wrap;
 gap: 5px;
+/* center third div and set up "padding" on outsides */
+width: 90vw;
+margin: 0 auto;
 }
 
 .third-container h3 {
@@ -148,16 +151,25 @@ gap: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 610px;
-  max-height: 700px;
+ 
+  width: 50vw;
   flex-wrap: wrap;
   padding: 50px;
   border: 1px solid white;
 }
 
-.shavo-block img{
-width: 600px;
+/* consequently sets height of the about / third container (parent div) << dont manually set height of this
+because you want the div height identical to the shavo image height. if you were to set the third container (parent div) height
+then when doing flex wrap, the about section would overflow into the meet the band members section 
+so i had to basically set the shavo block height, then match the image height to whatever the height was set to for the shavo block */
+.shavo-block {
+  height: 620px;
 }
+
+.shavo-block img {
+  height: inherit;
+}
+/* see how the height is inherited by the image to stretch / fit to the parent div shavo-block */
 
 .all-tanks {
 display: flex;
@@ -221,9 +233,9 @@ h1 {
   color: white;
 }
 
-.shavo-block {
+/* .shavo-block {
   height: 759px;
-}
+} */
 
 .left-hero button, .grey-notice button {
   border: none;
