@@ -139,8 +139,8 @@ flex-direction: row;
 flex-wrap: wrap;
 gap: 5px;
 /* center third div and set up "padding" on outsides */
-width: 90vw;
-margin: 0 auto;
+/* width: 90vw; */
+/* margin: 0 auto; */
 }
 
 .third-container h3 {
