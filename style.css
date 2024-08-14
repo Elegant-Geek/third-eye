@@ -155,12 +155,21 @@ gap: 5px;
 }
 
 .about-section p {
-  text-indent:50px;
+  text-indent: 50px;
   /* font-size: 16px; */
   padding: 10px;
   margin: 0px;
   text-align: justify;
 }
+
+.about-section a {
+    color: #d70f0f;
+}
+
+.about-section a:hover {
+  color: white;
+}
+
 
 .about-section h1 {
   padding-bottom: 10px;
