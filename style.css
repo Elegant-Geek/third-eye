@@ -47,7 +47,7 @@ flex-wrap: wrap;
 .both-heroes {
 display: flex;
 flex-direction: row;
-padding: 80px 0px 50px 0px;
+padding: 80px 0px 125px 0px;
 flex-wrap: wrap; 
 justify-content: center;
 align-items: flex-start;
@@ -87,7 +87,6 @@ flex-direction: column;
 /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
 justify-content: center;
 padding-right: 40px;
-padding-bottom: 80px;
 max-width: 453px;
 }
 .right-hero {
@@ -95,15 +94,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+margin-top: -40px;
 
 }
 .right-hero img {
   width: 450px; 
-  /* OMG IT WORKED */
-  /* SOURCE: https://stackoverflow.com/questions/885835/position-an-image-outside-of-its-container */
-  position: relative;
-  top: -40px;
-  z-index: 99;
 }
 .header a {
   text-decoration: none;
@@ -450,6 +445,25 @@ text-align: center;
 
 /* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
 
+/* narrower query (when you reach a 1200 pixel width do...) */
+@media (max-width: 1200px) {
+  .grey-notice {
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 10px;
+    padding: 50px;
+  }
+
+  .right-hero {
+    margin-top: 40px;
+  }
+
+  /* sd) */
+  /* .both-heroes {
+    padding: 80px 0px 90px 0px;
+  } */
+
+}
 
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
@@ -460,12 +474,12 @@ text-align: center;
     padding: 50px;
   }
 
-  .both-heroes {
+  /* .both-heroes {
     padding-top: 20px;
-  }
+  } */
 
   .button-box {
-    gap: 30px;
+    gap: 45px;
   }
 }
 
@@ -490,5 +504,9 @@ text-align: center;
   .all-tanks {
    /* closes the gap between all the character descriptions for mobile */
     gap: 10px;
+  }
+  .social-media-container {
+    width: 40vw;
+    flex-wrap: wrap;
   }
 }
