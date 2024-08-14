@@ -437,7 +437,7 @@ text-align: center;
 
 /* ABSOLUTE LIFE HACK is setting the image to a size relative to the view window so it automatically adjusts to your window size. */
 .comic-box-container img {
-  height: 42vw;
+  width: 56vw;
 }
 
 
