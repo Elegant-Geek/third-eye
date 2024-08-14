@@ -356,6 +356,8 @@ height: 100%;
 
 .sub-menu {
   flex-direction: column;
+  /* display: flex;
+  justify-items: center; */
 }
 
 .sub-menu a {
@@ -378,12 +380,13 @@ height: 100%;
 }
 
 .annoyed {
-  width: 63vw;
+  /* fixes the navigation headers in comic to be close to / in line with the width of the comic pages (update this variable if you resize the comic pages) */
+  width: 56vw;
   justify-content: space-between;
 }
 
 .annoyed h3 {
-  width: 720px;
+  /* width: 720px; */
 text-align: center;
 }
 
