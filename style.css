@@ -507,8 +507,12 @@ text-align: center;
    /* closes the gap between all the character descriptions for mobile */
     gap: 10px;
   }
-  .social-media-container {
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+  /* .social-media-container {
     width: 40vw;
     flex-wrap: wrap;
-  }
+  } */
 }
