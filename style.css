@@ -415,7 +415,6 @@ height: 100%;
 
 .annoyed {
   /* fixes the navigation headers in comic to be close to / in line with the width of the comic pages (update this variable if you resize the comic pages) */
-  width: 56vw;
   justify-content: space-between;
 }
 
@@ -436,7 +435,10 @@ text-align: center;
 }
 
 /* ABSOLUTE LIFE HACK is setting the image to a size relative to the view window so it automatically adjusts to your window size. */
-.comic-box-container img {
+/* here, i have set the max width of the submenu div called 'annoyed' and its comic pages below to a fixed width relative to the vw */
+
+/* note that TWO classes are listed here. the submenu header width and the comic page width */
+.annoyed, .comic-box-container img {
   width: 56vw;
 }
 
@@ -476,10 +478,9 @@ text-align: center;
   }
 
 /* all comic pages take up more space on the screen now for mobile pages */
-  .comic-box-container img {
+  .annoyed .comic-box-container img {
     width: 90vw;
   }
-  
 }
 
 /* narrower query (when you reach a 600 pixel width do...) */
