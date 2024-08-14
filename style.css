@@ -492,6 +492,11 @@ text-align: center;
     height: auto;
   }
 
+  /* center left hero on homepage (padding was previously used in a strange way for desktop (like 0 40 80 0))*/
+  .left-hero {
+    padding: 0px 30px 80px 30px;
+  }
+
   /* decrease the main THIRD EYE red header font at top to 30px so that eye logos fit and overall look is centered */
   .header h1 {
     font-size: 30px;
