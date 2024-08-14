@@ -353,6 +353,17 @@ like there was a small gap between the image and bottom of the image div contain
   margin: 0px;
 }
 
+
+/* ADDED BACK TO TOP LINK FOR INDEX */
+#back-to-top-index a {
+  color: #d70f0f;
+  /* NOTE THAT THE MARGIN IS SET TO -40PX USING STYLE IN HTML FILE */
+}
+#back-to-top-index a:hover {
+  color: white;
+  /* NOTE THAT THE MARGIN IS SET TO -40PX USING STYLE IN HTML FILE */
+}
+
 .footer {
 display: flex;
 align-items: center;
