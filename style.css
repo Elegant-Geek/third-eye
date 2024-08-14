@@ -440,10 +440,7 @@ text-align: center;
   width: 56vw;
 }
 
-
 /* ***************************************** media queries ***************************************** */
-
-
 /* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
 
 /* narrower query (when you reach a 1200 pixel width do...) */
@@ -461,8 +458,6 @@ text-align: center;
 
 }
 
-
-
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
   .grey-notice {
@@ -479,6 +474,12 @@ text-align: center;
   .button-box {
     gap: 45px;
   }
+
+/* all comic pages take up more space on the screen now for mobile pages */
+  .comic-box-container img {
+    width: 90vw;
+  }
+  
 }
 
 /* narrower query (when you reach a 600 pixel width do...) */
