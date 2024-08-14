@@ -297,6 +297,18 @@ h1 {
 }
 
 
+/* making a div with an id then fixing its height, then fitting the image inside to the height of the div using inherit
+this removes the stupid weird underhanging space (literally like 4px) from the div
+like there was a small gap between the image and bottom of the image div container for some reason */
+
+#shavo-icon {
+  height: 144px;
+}
+
+#shavo-icon img {
+  height: inherit;
+}
+
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
 .grey-notice {
   background-color: #373434;
