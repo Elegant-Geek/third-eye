@@ -432,3 +432,18 @@ text-align: center;
   height: 42vw;
 }
 
+
+/* ***************************************** media queries ***************************************** */
+
+@media (max-width: 600px) {
+  img {
+    max-width: 100vw;
+  }
+}
+
+/* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
+@media (max-width: 600px) {
+  .shavo-block {
+    height: auto;
+  }
+}
