@@ -79,6 +79,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 40px;
+flex-wrap: wrap;
 }
 .left-hero {
 display: flex;
@@ -217,6 +218,8 @@ h1 {
   color: white;
   font-weight: 900;
   margin: 0px;
+  /* centers the main third eye title on the homepage when collapsed*/
+  text-align: center;
 }
 
 .second-header h1 {
