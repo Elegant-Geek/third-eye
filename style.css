@@ -47,7 +47,7 @@ flex-wrap: wrap;
 .both-heroes {
 display: flex;
 flex-direction: row;
-padding: 80px 0px 125px 0px;
+padding: 80px 0px 45px 0px;
 flex-wrap: wrap; 
 justify-content: center;
 align-items: flex-start;
@@ -87,6 +87,7 @@ flex-direction: column;
 /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
 justify-content: center;
 padding-right: 40px;
+padding-bottom: 80px;
 max-width: 453px;
 }
 .right-hero {
@@ -460,6 +461,8 @@ text-align: center;
 
 }
 
+
+
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
   .grey-notice {
@@ -488,10 +491,7 @@ text-align: center;
   .shavo-block {
     height: auto;
   }
-  /* center left hero on homepage (padding was previously used in a strange way for desktop (like 0 40 80 0))*/
-  .left-hero {
-    padding: 0px 30px 80px 30px;
-  }
+
   /* decrease the main THIRD EYE red header font at top to 30px so that eye logos fit and overall look is centered */
   .header h1 {
     font-size: 30px;
