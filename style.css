@@ -446,9 +446,22 @@ text-align: center;
   .shavo-block {
     height: auto;
   }
+
+  .left-hero {
+    padding: 0px 30px 80px 30px;
+  }
+
+}
+
+@media (max-width: 800px) {
   .grey-notice {
     flex-wrap: wrap;
     width: 100vw;
+    gap: 10px;
+    padding: 50px;
   }
 
+  .button-box {
+    gap: 30px;
+  }
 }
