@@ -9,6 +9,11 @@ html, body {
   padding: 0;
   background-color: black;
 }
+
+a > img:only-child {
+  display: block;
+}
+
 a,
 a label {
   cursor: pointer;
@@ -408,6 +413,7 @@ height: 100%;
   align-items: center;
 }
 
+
 .rows a {
   color: white;
 }
@@ -415,6 +421,7 @@ height: 100%;
 .rows img {
   width: 100px;
 }
+
 
 .sub-menu {
   flex-direction: column;
