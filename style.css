@@ -585,10 +585,22 @@ padding-bottom: 40px;
 }
 
 /* ***************************************** LORE PAGES ***************************************** */
-
-.lore-container-1 {
-  height: 300px;
+.biggest-lore-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+.lore-container-1, .lore-container-2, .lore-materials,.lore-fanart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+/* .lore-container-1 {
+  height: 300px;
+} */
 .lore-header {
   padding: 10px 0px;
   display: flex;
@@ -596,12 +608,33 @@ padding-bottom: 40px;
   justify-content: center;
 }
 
-.lore-container-2 {
+/* .lore-container-2 {
   height: 300px;
+} */
+/* .lore-materials {
+  height: 300px;
+} */
+.materials-white-tank {
+  background-color: white;
+  height: 100px;
 }
-.lore-materials {
-  height: 300px;
+.materials-paragraph p {
+  color: black;
 }
 .lore-fanart {
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fanart-container {
+  background-color: white;
+  /* subject to change height here */
+  height: 200px;
+  /* makes whole background of fanart tank white not black */
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
