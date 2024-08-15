@@ -466,36 +466,32 @@ text-align: center;
 /* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
 
 /* narrower query (when you reach a 1200 pixel width do...) */
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
+
+
+  /* reformats grey notice on homepage */
   .grey-notice {
     flex-wrap: wrap;
-    width: 100vw;
     gap: 10px;
     padding: 50px;
   }
+  .button-box {
+    gap: 45px;
+  }
 
-  /* .right-hero {
-    margin-top: 40px;
-  } */
+  #shavo-icon {
+    padding: 0px 50px;
+  }
 
 }
 
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
-  .grey-notice {
-    flex-wrap: wrap;
-    width: 100vw;
-    gap: 10px;
-    padding: 50px;
-  }
 
   .both-heroes {
     padding: 20px 0px 90px 0px;
   } 
 
-  .button-box {
-    gap: 45px;
-  }
 
 /* all comic pages take up more space on the screen now for mobile pages */
 /* DONT FORGET THE COMMA BETWEEN CLASSES (that's why it wasn't working) */
@@ -506,6 +502,8 @@ text-align: center;
 
 /* narrower query (when you reach a 600 pixel width do...) */
 @media (max-width: 600px) {
+
+
   /* allows images like 3rd eye serj accent piece and spooky shavo to fill whole width of page for smaller displays */
   img {
     max-width: 100vw;
