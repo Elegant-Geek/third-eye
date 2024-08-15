@@ -389,8 +389,7 @@ gap: 30px;
   /* allows the three menus options to extend the height of the page if needed when window is scrunched */
 height: 100%;
   /* raising the menu options */
-  padding-top: 10px;
-  padding-bottom: 90px;
+padding-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -403,10 +402,11 @@ height: 100%;
   align-items: center;
   /* flex-wrap: wrap; */
   gap: 50px;
+  padding: 2px;
 }
 
 .comic-menu-container > .rows h1 {
-  font-size: 4vw;
+  font-size: 45px;
 }
 
 .rows a {
@@ -414,7 +414,7 @@ height: 100%;
 }
 /* SET COMIC MENU PICS ON THE LEFT IMAGE DIMENSIONS */
 .rows img {
-  width: 100px;
+  width: 75px;
 }
 
 
