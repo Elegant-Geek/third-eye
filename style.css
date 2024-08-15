@@ -13,6 +13,10 @@ a,
 a label {
   cursor: pointer;
   text-decoration: none;
+  color: #d70f0f;
+}
+a:hover {
+  color: white;
 }
 p {
 padding: 16px 0px;
@@ -40,9 +44,7 @@ flex-direction: column;
 flex-wrap: wrap;
 }
 
-.header a:hover {
-    color: white;
-}
+
 
 .both-heroes {
 display: flex;
@@ -103,8 +105,6 @@ margin-top: -40px;
 }
 .header a {
   text-decoration: none;
-  color: #d70f0f;
-
 }
 .left-hero p {
 margin-top: 0px;
@@ -161,15 +161,6 @@ gap: 5px;
   margin: 0px;
   text-align: justify;
 }
-
-.about-section a {
-    color: #d70f0f;
-}
-
-.about-section a:hover {
-  color: white;
-}
-
 
 .about-section h1 {
   padding-bottom: 10px;
@@ -235,13 +226,11 @@ h1 {
 
 .header h3 > a {
   font-size: 24px;
-  color: #d70f0f;
   margin: 0px;
   flex: none;
 }
 
 .header h3 {
-  color: #d70f0f;
   font-size: 45px;
 }
 
@@ -355,14 +344,9 @@ like there was a small gap between the image and bottom of the image div contain
 
 
 /* ADDED BACK TO TOP LINK FOR INDEX */
-#back-to-top-index a {
-  color: #d70f0f;
+
   /* NOTE THAT THE MARGIN IS SET TO -40PX USING STYLE IN HTML FILE */
-}
-#back-to-top-index a:hover {
-  color: white;
-  /* NOTE THAT THE MARGIN IS SET TO -40PX USING STYLE IN HTML FILE (hello) */
-}
+
 
 
 .footer {
@@ -415,13 +399,26 @@ height: 100%;
   justify-items: center; */
 }
 
-.sub-menu a {
-  color: #d70f0f;
-}
 
-.sub-menu a:hover {
+/* ***************************************** ALL THE WHITE A HOVERS (removed for redundancy) ***************************************** */
+
+/* .sub-menu a:hover {
   color: white;
-}
+} */
+
+/* .header a:hover {
+  color: white;
+} */
+
+/* .about-section a:hover {
+  color: white;
+} */
+
+ /* NOTE THAT THE MARGIN IS SET TO -40PX USING STYLE IN HTML FILE (hello) */
+
+/* #back-to-top-index a:hover {
+  color: white;
+} */
 
 /* ***************************************** COMIC PAGES ***************************************** */
 .sub-menu h3 {
