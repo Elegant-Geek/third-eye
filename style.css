@@ -585,11 +585,14 @@ padding-bottom: 40px;
 }
 
 /* ***************************************** LORE PAGES ***************************************** */
-.biggest-lore-box {
+.biggest-lore-box, .faq-paragraph, .lore-paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.biggest-lore-box {
   flex-direction: column;
+
 }
 .lore-container-1, .lore-container-2, .lore-materials,.lore-fanart {
   display: flex;
