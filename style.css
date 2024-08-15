@@ -462,12 +462,14 @@ padding-bottom: 40px;
 }
 
 /* ***************************************** media queries ***************************************** */
-/* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
+@media (max-width: 1128px) {
+  .both-heroes {
+    padding: 20px 0px 90px 0px;
+  } 
+}
 
-/* first container pacman .rows */
 
-
-/* narrower query (when you reach a 1200 pixel width do...) */
+/* narrower query (when you reach a 1062 pixel width aka when the serj pic on the homepage wraps over, do...) */
 @media (max-width: 1062px) {
   /* centering the left hero div elements like the text and button */
   .left-hero {
@@ -496,9 +498,6 @@ padding-bottom: 40px;
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
 
-  .both-heroes {
-    padding: 20px 0px 90px 0px;
-  } 
 
   .comic-menu-container > .rows h1 {
     font-size: 5vw;
