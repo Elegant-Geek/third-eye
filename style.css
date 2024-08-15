@@ -441,8 +441,9 @@ padding-bottom: 40px;
 }
 
 .annoyed h3 {
-  /* width: 720px; */
-text-align: center;
+  /* if current comic width is set to 56vw, and you want each div about 1/3 of that */
+  width: 18.6vw;
+  text-align: center;
 }
 
 .comic-box-container {
