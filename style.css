@@ -609,7 +609,7 @@ padding-bottom: 40px;
   justify-content: center;
 }
 
-.lore-box {
+.lore-box, .materials-box {
   display: flex;
   gap: 50px;
   justify-content: space-around;
