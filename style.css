@@ -464,7 +464,7 @@ padding-bottom: 40px;
 /* ***************************************** media queries ***************************************** */
 @media (max-width: 1128px) {
   .both-heroes {
-    padding: 20px 0px 90px 0px;
+    padding: 20px 0px 45px 0px;
   } 
 }
 
