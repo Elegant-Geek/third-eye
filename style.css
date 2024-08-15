@@ -583,3 +583,22 @@ padding-bottom: 40px;
   }
 
 }
+
+/* ***************************************** LORE PAGES ***************************************** */
+
+.lore-container-1 {
+  height: 300px;
+}
+.lore-header {
+  padding-top: 20px;
+}
+
+.lore-container-2 {
+  height: 300px;
+}
+.lore-materials {
+  height: 300px;
+}
+.lore-fanart {
+  height: 300px;
+}
