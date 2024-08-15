@@ -479,7 +479,6 @@ text-align: center;
     padding: 0px 0px 80px 0px;
   }
 
-
   /* reformats grey notice on homepage */
   .grey-notice {
     flex-wrap: wrap;
@@ -503,6 +502,14 @@ text-align: center;
   .both-heroes {
     padding: 20px 0px 90px 0px;
   } 
+
+  .comic-menu-container > .rows h1 {
+    font-size: 5vw;
+  }
+
+  .comic-menu-container > .rows {
+    gap: 5vw;
+  }
 
 
 /* all comic pages take up more space on the screen now for mobile pages */
