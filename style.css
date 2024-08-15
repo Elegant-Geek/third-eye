@@ -592,6 +592,7 @@ padding-bottom: 40px;
 }
 .biggest-lore-box {
   flex-direction: column;
+  gap: 50px;
 
 }
 .lore-container-1, .lore-container-2, .lore-materials,.lore-fanart {
@@ -601,9 +602,10 @@ padding-bottom: 40px;
   flex-wrap: wrap;
   width: 90vw;
 }
-/* .lore-container-1 {
-  height: 300px;
-} */
+.lore-container-1 {
+  background: rgb(145,10,10);
+  background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 15%, rgba(0,0,0,1) 100%);
+}
 .lore-header {
   padding: 10px 0px;
   display: flex;
@@ -614,9 +616,13 @@ padding-bottom: 40px;
 /* .lore-container-2 {
   height: 300px;
 } */
-/* .lore-materials {
+.lore-materials {
   height: 300px;
-} */
+  background-color: white;
+}
+.lore-materials h1 {
+  color: black;
+}
 .materials-white-tank {
   background-color: white;
   height: 100px;
