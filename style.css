@@ -396,23 +396,18 @@ height: 100%;
   justify-content: space-between;
 }
 
-.comic-menu-container {
-  width: 650px;
-
-}
-
 .comic-menu-container > .rows {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  align-items: center;
   /* flex-wrap: wrap; */
   gap: 50px;
 }
 
-.rows {
-  align-items: center;
+.comic-menu-container > .rows h1 {
+  font-size: 4vw;
 }
-
 
 .rows a {
   color: white;
@@ -474,13 +469,6 @@ text-align: center;
 
 /* first container pacman .rows */
 
-@media (max-width: 1934px) {
-  .comic-menu-container > .rows {
-    flex-wrap: nowrap;
-    font-size: 6rem;
-  }
-  
-}
 
 /* narrower query (when you reach a 1200 pixel width do...) */
 @media (max-width: 1062px) {
