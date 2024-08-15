@@ -590,7 +590,10 @@ padding-bottom: 40px;
   height: 300px;
 }
 .lore-header {
-  padding-top: 20px;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lore-container-2 {
