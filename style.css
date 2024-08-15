@@ -609,6 +609,13 @@ padding-bottom: 40px;
   justify-content: center;
 }
 
+.lore-box {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* .lore-container-2 {
   height: 300px;
 } */
