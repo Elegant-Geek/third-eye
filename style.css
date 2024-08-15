@@ -455,6 +455,11 @@ text-align: center;
 
 /* narrower query (when you reach a 1200 pixel width do...) */
 @media (max-width: 1000px) {
+  /* centering the left hero div elements like the text and button */
+  .left-hero {
+    text-align: center;
+    align-items: center;
+  }
 
 
   /* reformats grey notice on homepage */
