@@ -454,7 +454,7 @@ text-align: center;
 /* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
 
 /* narrower query (when you reach a 1200 pixel width do...) */
-@media (max-width: 1000px) {
+@media (max-width: 1062px) {
   /* centering the left hero div elements like the text and button */
   .left-hero {
     text-align: center;
