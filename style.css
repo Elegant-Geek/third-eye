@@ -391,17 +391,29 @@ height: 100%;
   justify-content: space-between;
 }
 
-.first-container > .rows {
+.comic-menu-container {
+  width: 650px;
+
+}
+
+.comic-menu-container > .rows {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  width: 655px;
-  flex-wrap: wrap;
-  gap: 40px;
+  /* flex-wrap: wrap; */
+  gap: 50px;
+}
+
+.rows {
+  align-items: center;
 }
 
 .rows a {
   color: white;
+}
+/* SET COMIC MENU PICS ON THE LEFT IMAGE DIMENSIONS */
+.rows img {
+  width: 100px;
 }
 
 .sub-menu {
@@ -453,6 +465,16 @@ text-align: center;
 /* ***************************************** media queries ***************************************** */
 /* for the stretched shavo one (this has a fixed height that must be manually overridden for now) */
 
+/* first container pacman .rows */
+
+@media (max-width: 1934px) {
+  .comic-menu-container > .rows {
+    flex-wrap: nowrap;
+    font-size: 6rem;
+  }
+  
+}
+
 /* narrower query (when you reach a 1200 pixel width do...) */
 @media (max-width: 1062px) {
   /* centering the left hero div elements like the text and button */
@@ -492,6 +514,11 @@ text-align: center;
 /* DONT FORGET THE COMMA BETWEEN CLASSES (that's why it wasn't working) */
   .annoyed, .comic-box-container img {
     width: 95vw;
+  }
+
+  .rows h1 {
+    flex-wrap: wrap;
+    font-size: 6vw;
   }
 }
 
