@@ -13,6 +13,7 @@ a,
 a label {
   cursor: pointer;
   text-decoration: none;
+  /* this is the one place where the color red is stored in the code: #d70f0f is the color i chose from the https://cssgradient.io/ tool! */
   color: #d70f0f;
 }
 a:hover {
@@ -398,27 +399,6 @@ height: 100%;
   /* display: flex;
   justify-items: center; */
 }
-
-
-/* ***************************************** ALL THE WHITE A HOVERS (removed for redundancy) ***************************************** */
-
-/* .sub-menu a:hover {
-  color: white;
-} */
-
-/* .header a:hover {
-  color: white;
-} */
-
-/* .about-section a:hover {
-  color: white;
-} */
-
- /* NOTE THAT THE MARGIN IS SET TO -40PX USING STYLE IN HTML FILE (hello) */
-
-/* #back-to-top-index a:hover {
-  color: white;
-} */
 
 /* ***************************************** COMIC PAGES ***************************************** */
 .sub-menu h3 {
