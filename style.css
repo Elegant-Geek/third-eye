@@ -299,12 +299,8 @@ h1 {
 this removes the stupid weird underhanging space (literally like 4px) from the div
 like there was a small gap between the image and bottom of the image div container for some reason */
 
-#shavo-icon {
-  height: 144px;
-}
-
 #shavo-icon img {
-  height: inherit;
+  height: 144px;
 }
 
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
