@@ -13,6 +13,7 @@ a,
 a label {
   cursor: pointer;
   text-decoration: none;
+  color: white;
 }
 p {
 padding: 16px 0px;
@@ -363,6 +364,7 @@ like there was a small gap between the image and bottom of the image div contain
   color: white;
   /* NOTE THAT THE MARGIN IS SET TO -40PX USING STYLE IN HTML FILE (hello) */
 }
+
 
 .footer {
 display: flex;
