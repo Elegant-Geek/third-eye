@@ -421,11 +421,11 @@ like there was a small gap between the image and bottom of the image div contain
   border-radius: 5px;
 }
 /* setting flex properties for most divs */
-.lore-header, .lore-box, .fanart-container, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
+.lore-header, .lore-box, .fanart-container, .biggest-lore-box, .materials-paragraph, .lore-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
   display: flex;
   align-items: center;
 }
-.lore-container-1, .lore-container-2, .lore-trivia,.lore-fanart, .biggest-lore-box, .faq-paragraph, .lore-paragraph  {
+.lore-container-1, .lore-container-2, .lore-trivia,.lore-fanart, .biggest-lore-box, .materials-paragraph, .lore-paragraph  {
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -454,7 +454,7 @@ like there was a small gap between the image and bottom of the image div contain
 .lore-container-2 {
   border-bottom: 1px solid white; 
 }
-/* .faq-paragraph p, .lore-paragraph p, .trivia-paragraph p {
+/* .materials-paragraph p, .lore-paragraph p, .trivia-paragraph p {
   setting width below will mess up stuff
   width: 350px;
 } */
