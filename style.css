@@ -159,6 +159,7 @@ button > a {
 .about-section p, .lore-paragraph p {
   text-indent: 50px;
   text-align: justify;
+  /* idk if i will add the trivia div with this formatting but it is unlikely if it is decidedly in bullet point form */
 }
 .about-section h1 {
   padding-bottom: 10px;
