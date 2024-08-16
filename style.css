@@ -600,11 +600,11 @@ padding-bottom: 30px;
 }
 
 /* setting flex properties for most divs */
-.lore-header, .lore-box, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .materials-box, .lore-materials, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-materials {
+.lore-header, .lore-box, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
   display: flex;
   align-items: center;
 }
-.lore-container-1, .lore-container-2, .lore-materials,.lore-fanart, .biggest-lore-box, .faq-paragraph, .lore-paragraph  {
+.lore-container-1, .lore-container-2, .lore-trivia,.lore-fanart, .biggest-lore-box, .faq-paragraph, .lore-paragraph  {
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -618,7 +618,7 @@ padding-bottom: 30px;
   justify-content: center;
 }
 
-.lore-box, .materials-box {
+.lore-box, .trivia-box {
   gap: 50px;
   justify-content: space-around;
   /* DISABLING FLEX WRAP WRAP HERE */
@@ -629,11 +629,11 @@ padding-bottom: 30px;
   border-bottom: 1px solid white; 
 }
 
-/* .faq-paragraph p, .lore-paragraph p, .materials-paragraph p {
+/* .faq-paragraph p, .lore-paragraph p, .trivia-paragraph p {
   setting width below will mess up stuff
   width: 350px;
 } */
-.lore-materials {
+.lore-trivia {
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
 }
