@@ -502,6 +502,15 @@ padding-bottom: 30px;
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
 
+  .trivia-box {
+    flex-wrap: wrap;
+  }
+
+  .trivia-box img {
+    /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
+    margin-top: 33px;
+  }
+
 
   .comic-menu-container > .rows h1 {
     font-size: 5vw;
@@ -583,7 +592,7 @@ padding-bottom: 30px;
   }
 }
 
-/* ***************************************** LORE PAGES ***************************************** */
+/* ***************************************** LORE PAGE ***************************************** */
 
 .biggest-lore-box {
   flex-direction: column;
@@ -612,18 +621,27 @@ padding-bottom: 30px;
   background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 15%, rgba(0,0,0,1) 100%);
   border-bottom: 1px solid white; 
 }
+.lore-container-2, .lore-trivia {
+  /* give these two extra top/upper padding */
+  padding-top: 33px;
+}
 .lore-header {
-  padding: 10px 0px 0px 0px;
+  /* exclude the extra padding: for the first header "lore"; */
+  /* this padding is equal to the paragraph standard padding (16px) plus the current lore + trivia box padding (20px) then added a few extra pixels wider than that*/
   justify-content: center;
 }
+/* #first-lore-page-header {
+  padding-top: 0px;
+} */
 
 .lore-box, .trivia-box {
   gap: 50px;
   justify-content: space-around;
   /* DISABLING FLEX WRAP WRAP HERE */
   /* flex-wrap: wrap; */
-  padding: 0px 7vw;
+  padding: 0px 7vw 20px 7vw;
 }
+
 .lore-container-2 {
   border-bottom: 1px solid white; 
 }
@@ -637,7 +655,7 @@ padding-bottom: 30px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
 }
 
-
+/* ***************************************** LORE PAGE ***************************************** */
 .lore-fanart {
   flex-direction: column;
 }
