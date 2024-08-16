@@ -351,18 +351,18 @@ like there was a small gap between the image and bottom of the image div contain
 
   /* NOTE THAT THE MARGIN IS SET TO -50PX USING STYLE IN HTML FILE */
 
-#back-to-top-index {
+#back-to-top-index, #back-to-top-fanart {
   display: flex;
-  margin-top: -50px;
-  height: 50px;
   align-items: center;
   justify-content: center;
-
 }
-#back-to-top-index h3 {
+#back-to-top-index {
+  margin-top: -50px;
+  height: 50px;
+}
+#back-to-top-index h3, #back-to-top-fanart h3 {
 padding: 0px;
 }
-
 
 .footer {
 display: flex;
