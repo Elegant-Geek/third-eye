@@ -662,6 +662,10 @@ padding-bottom: 30px;
     padding: 15px;
 }
 
+#fanart-header h1 {
+  padding-bottom: 26px;
+}
+
 .fanart-container img {
 border-radius: 20px;
 }
