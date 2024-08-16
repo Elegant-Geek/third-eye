@@ -600,7 +600,7 @@ padding-bottom: 30px;
 }
 
 /* setting flex properties for most divs */
-.lore-header, .lore-box, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
+.lore-header, .lore-box, .fanart-container, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
   display: flex;
   align-items: center;
 }
@@ -648,5 +648,9 @@ padding-bottom: 30px;
   height: 800px;
   /* makes whole background of fanart tank white not black */
   width: 1000px;
+  padding-top: 8px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
