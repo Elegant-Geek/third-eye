@@ -588,6 +588,11 @@ padding-bottom: 40px;
 .biggest-lore-box {
   flex-direction: column;
 }
+
+.biggest-lore-box p {
+  margin: 0px;
+}
+
 /* setting flex properties for most divs */
 .lore-header, .lore-box, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .materials-box, .lore-materials, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-materials {
   display: flex;
@@ -602,7 +607,7 @@ padding-bottom: 40px;
   background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 15%, rgba(0,0,0,1) 100%);
 }
 .lore-header {
-  padding: 10px 0px;
+  padding: 10px 0px 0px 0px;
   justify-content: center;
 }
 
@@ -612,21 +617,19 @@ padding-bottom: 40px;
   /* flex-wrap: wrap; */
   padding: 0px 7vw;
 }
-/* .lore-container-2 {
-  height: 300px;
-} */
+.lore-container-2 {
+  border: 1px solid white; 
+}
 
-.faq-paragraph p, .lore-paragraph p {
-  min-width: 350px;
+.faq-paragraph p, .lore-paragraph p, .materials-paragraph p {
+  max-width: 350px;
 }
 .lore-materials {
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
 }
-.filler-div {
-  height: 220px;
-  width: 200px;
-}
+
+
 .lore-fanart {
   flex-direction: column;
 }
@@ -635,6 +638,6 @@ padding-bottom: 40px;
   /* subject to change height here */
   height: 200px;
   /* makes whole background of fanart tank white not black */
-  width: 95vw;
+  width: 300px;
   justify-content: center;
 }
