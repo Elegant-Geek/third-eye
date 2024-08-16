@@ -643,14 +643,26 @@ padding-bottom: 30px;
   flex-direction: column;
 }
 .fanart-container {
-  background-color: white;
+  /* maybe change this color */
+  background-color: #373434;
   /* subject to change height here */
-  height: 800px;
+  /* height: 800px; */
   /* makes whole background of fanart tank white not black */
-  width: 1000px;
   padding-top: 8px;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.fanart-container img {
+  width: 250px;
+    height: auto;
+    flex: none;
+    padding: 15px;
+}
+
+.fanart-container img {
+border-radius: 20px;
+}
+
