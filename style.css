@@ -598,7 +598,7 @@ border-radius: 20px;
       /* make gap smaller once all items have been flex wrapped */
       gap: 5px;
     }
-    .trivia-box img {
+    .trivia-box img, .lore-box {
       /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
       margin-top: 33px;
     }
