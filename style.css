@@ -497,20 +497,20 @@ padding-bottom: 30px;
     .left-hero {
       padding: 0px 0px 80px 0px;
     }
+
+    .lore-box, .trivia-box {
+      flex-wrap: wrap;
+      /* make gap smaller once all items have been flex wrapped */
+    }
+    .trivia-box img {
+      /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
+      margin-top: 33px;
+    }
+
 }
 
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
-
-  .trivia-box {
-    flex-wrap: wrap;
-  }
-
-  .trivia-box img {
-    /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
-    margin-top: 33px;
-  }
-
 
   .comic-menu-container > .rows h1 {
     font-size: 5vw;
@@ -630,15 +630,14 @@ padding-bottom: 30px;
   /* this padding is equal to the paragraph standard padding (16px) plus the current lore + trivia box padding (20px) then added a few extra pixels wider than that*/
   justify-content: center;
 }
-/* #first-lore-page-header {
-  padding-top: 0px;
-} */
+
+.lore-box img {
+  width: 200px;
+}
 
 .lore-box, .trivia-box {
   gap: 50px;
   justify-content: space-around;
-  /* DISABLING FLEX WRAP WRAP HERE */
-  /* flex-wrap: wrap; */
   padding: 0px 7vw 20px 7vw;
 }
 
