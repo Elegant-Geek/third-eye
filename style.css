@@ -628,6 +628,9 @@ padding-bottom: 30px;
 .lore-container-2 {
   border-bottom: 1px solid white; 
 }
+.serj-tat-div img {
+  padding: 0px 50px;
+}
 
 /* .faq-paragraph p, .lore-paragraph p, .materials-paragraph p {
   setting width below will mess up stuff
