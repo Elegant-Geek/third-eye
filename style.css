@@ -4,17 +4,14 @@
   font-family: treefrog;
   src: url(fonts/treefrog.ttf);
 }
-
 html, body {
   margin: 0;
   padding: 0;
   background-color: black;
 }
-
 a > img:only-child {
   display: block;
 }
-
 a,
 a label {
   cursor: pointer;
@@ -26,52 +23,49 @@ a:hover {
   color: white;
 }
 p {
-padding: 16px 0px;
-line-height: 1.5;
-color: white;
+  padding: 16px 0px;
+  line-height: 1.5;
+  color: white;
 }
 /* ALL DIVS GIVEN BORDER-BOX to avoid redundancy in code and to make formatting consistent when adding padding! */
 div {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 body {
   font-family: sans-serif;
 }
-
 button > a {
-font-family: sans-serif;
-text-align: center;
+  font-family: sans-serif;
+  text-align: center;
 }
 .first-container, .second-container, .fourth-container {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-
 .both-heroes {
-display: flex;
-flex-direction: row;
-padding: 80px 80px 45px 80px;
-flex-wrap: wrap; 
-justify-content: center;
-align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  padding: 80px 80px 45px 80px;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: flex-start;
 }
 .header {
-  /* HERE IS WHERE YOU ADJUST HEADER PADDING SEPARATELY FROM THE MAIN FIRST CONTAINER 
-  (i removed header div and placed it above/outside the first container div) */
-padding: 0rem 5rem;
-display: flex;
-/* space around for header rather than space between looks cleaner with a minimized window because it keeps everything still centered! */
-justify-content: space-around;
-gap: 25px;
-/* allow elements to wrap when window is collapsed */
-flex-wrap: wrap;
-font-size: 30px;
-font-family: treefrog;
-margin: 45px 0px;
+    /* HERE IS WHERE YOU ADJUST HEADER PADDING SEPARATELY FROM THE MAIN FIRST CONTAINER 
+    (i removed header div and placed it above/outside the first container div) */
+  padding: 0rem 5rem;
+  display: flex;
+  /* space around for header rather than space between looks cleaner with a minimized window because it keeps everything still centered! */
+  justify-content: space-around;
+  gap: 25px;
+  /* allow elements to wrap when window is collapsed */
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-family: treefrog;
+  margin: 45px 0px;
 }
 .title-tank {
   display: flex;
@@ -79,34 +73,33 @@ margin: 45px 0px;
   gap: 8px;
 }
 .header ul {
-list-style-type: none;
-padding: 0px;
-margin: 0px;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 40px;
-flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 .left-hero {
-display: flex;
-flex-direction: column;
-/* centering the left hero div elements like the text and button */
-text-align: center;
-align-items: center;
-/* TIP! Justify content is used to vertically align in this case since flex direction is column. */
-justify-content: center;
-padding-right: 40px;
-padding-bottom: 80px;
-max-width: 453px;
+  display: flex;
+  flex-direction: column;
+  /* centering the left hero div elements like the text and button */
+  text-align: center;
+  align-items: center;
+  /* TIP! Justify content is used to vertically align in this case since flex direction is column. */
+  justify-content: center;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  max-width: 453px;
 }
 .right-hero {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-margin-top: -40px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -40px;
 }
 .right-hero img {
   width: 450px; 
@@ -115,9 +108,9 @@ margin-top: -40px;
   text-decoration: none;
 }
 .left-hero p {
-margin-top: 0px;
-color: white;
-font-size: 18px;
+  margin-top: 0px;
+  color: white;
+  font-size: 18px;
 }
 .first-container {
   /* background-color: #063441; */
@@ -127,31 +120,29 @@ font-size: 18px;
   /* old 0 color was #840f0f */
 }
 .second-header {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .second-container {
-background-color: rgba(145,10,10,1);
-padding: 20px 0px 50px 0px;
+  background-color: rgba(145,10,10,1);
+  padding: 20px 0px 50px 0px;
 }
 
 .third-container {
-display: flex;
-align-items: center;
-/* space around rather than center allows shavo to adapt when screen is minimized */
-justify-content:center;
-flex-direction: row;
-flex-wrap: wrap;
-gap: 5px;
-/* center third div and set up "padding" on outsides */
-/* width: 90vw; */
-/* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  /* space around rather than center allows shavo to adapt when screen is minimized */
+  justify-content:center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* center third div and set up "padding" on outsides */
+  /* width: 90vw; */
+  /* margin: 0 auto; */
 }
-
 .third-container h3 {
   color: white;
 }
-
 .about-section {
   display: flex;
   align-items: center;
@@ -161,7 +152,6 @@ gap: 5px;
   padding: 50px 20px;
   border: 1px solid white;
 }
-
 .about-section p {
   text-indent: 50px;
   /* font-size: 16px; */
@@ -169,11 +159,9 @@ gap: 5px;
   margin: 0px;
   text-align: justify;
 }
-
 .about-section h1 {
   padding-bottom: 10px;
 }
-
 /* consequently sets height of the about / third container (parent div) << dont manually set height of this
 because you want the div height identical to the shavo image height. if you were to set the third container (parent div) height
 then when doing flex wrap, the about section would overflow into the meet the band members section 
@@ -181,27 +169,25 @@ so i had to basically set the shavo block height, then match the image height to
 .shavo-block {
   height: 700px;
 }
-
 .shavo-block img {
   height: inherit;
 }
 /* see how the height is inherited by the image to stretch / fit to the parent div shavo-block */
-
 .all-tanks {
-display: flex;
-gap: 75px;
-justify-content: center;
-flex-wrap: wrap;
-padding-top: 10px;
+  display: flex;
+  gap: 75px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
 }
 .tank {
-display: flex;
-flex-direction: column;
-/* remember that when flex-firection is column, align-items is the left-right horizontal centering! */
-align-items: center;
-width: 200px;
-text-align: center;
-gap: 5px;
+  display: flex;
+  flex-direction: column;
+  /* remember that when flex-firection is column, align-items is the left-right horizontal centering! */
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  gap: 5px;
 }
 .tank p {
   color: white;
@@ -214,7 +200,6 @@ gap: 5px;
   height: auto;
   border-radius: 15px;
 }
-
 /* updated so that all H1's get these details not just the .left-hero h1 */
 h1 {
   font-family: treefrog;
@@ -225,34 +210,25 @@ h1 {
   /* centers the main third eye title on the homepage when collapsed*/
   text-align: center;
 }
-
 .second-header h1 {
   margin: 35px;
   color: white;
   font-weight: 900;
 }
-
 .header h3 > a {
   font-size: 24px;
   margin: 0px;
   flex: none;
 }
-
 .header h3 {
   font-size: 45px;
 }
-
 .shavo-block p {
   font-style: italic;
   font-weight: 300;
   font-size: 36px;
   color: white;
 }
-
-/* .shavo-block {
-  height: 759px;
-} */
-
 .left-hero button, .grey-notice button {
   border: none;
   border-radius: 6px;
@@ -262,17 +238,14 @@ h1 {
   font-size: 16px;
   font-weight: 700;
 }
-
 .left-hero button {
   width: 160px;
   background-color: rgba(145,10,10,1);
 }
-
 .grey-notice button {
   width: 120px;
   background-color: rgb(37 37 37);
 }
-
 .left-hero button a, .grey-notice button a {
   color: white;
 }
@@ -280,16 +253,13 @@ h1 {
 .left-hero button:hover {
   background-color: white;
 }
-
 .left-hero button:hover a, .grey-notice button:hover a {
   color: black;
 }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
-
 .grey-notice button {
   border: solid 1px white;
 }
-
 .grey-notice button a {
   color: white;
 }
@@ -297,16 +267,12 @@ h1 {
 .grey-notice button:hover {
   background: white;
 }
-
-
 /* making a div with an id then fixing its height, then fitting the image inside to the height of the div using inherit
 this removes the stupid weird underhanging space (literally like 4px) from the div
 like there was a small gap between the image and bottom of the image div container for some reason */
-
 #shavo-icon img {
   height: 144px;
 }
-
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
 .grey-notice {
   background-color: #373434;
@@ -321,7 +287,6 @@ like there was a small gap between the image and bottom of the image div contain
   /* ^^^ VERY IMPORTANT! */
   margin: 50px 0px;
 }
-
 .button-box {
   display: flex;
   justify-content: space-around;
@@ -329,28 +294,22 @@ like there was a small gap between the image and bottom of the image div contain
   flex-wrap: wrap;
   flex-direction: column;
 }
-
 .button-box button {
   /* BUTTON VERTICAL SPACING */
   margin: 8px 0px;
 }
-
 .grey-notice h3 {
   font-size: 24px;
   color: white;
   margin: 10px 0px 0px 0px;
 }
-
 .grey-notice p, .footer p, .footer a {
   color: white;
   font-size: 16px;
   margin: 0px;
 }
-
-
 /* ADDED BACK TO TOP LINK FOR INDEX + FANART PAGE */
   /* NOTE THAT THE MARGIN IS SET TO -50PX USING STYLE IN HTML FILE */
-
 #back-to-top-index, #back-to-top-fanart {
   display: flex;
   align-items: center;
@@ -361,39 +320,35 @@ like there was a small gap between the image and bottom of the image div contain
   height: 50px;
 }
 #back-to-top-index h3, #back-to-top-fanart h3 {
-padding: 0px;
+  padding: 0px;
 }
-
 .footer {
-display: flex;
-align-items: center;
-justify-content: space-around;
-padding: 40px 0px;
-background: rgb(145,10,10);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0px;
+  background: rgb(145,10,10);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
 }
-
 .social-media-container {
-display: flex;
-gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 /* ***************************************** COMIC MENU ***************************************** */
 .comic-menu-options h1 {
   line-height: 2.0;
 }
-
-/* you must specifiy the first container rules within the context of the comic menu class otherwise it messes up all your other pages */
+  /* you must specifiy the first container rules within the context of the comic menu class otherwise it messes up all your other pages */
 .comic-menu-options > .first-container{
   /* allows the three menus options to extend the height of the page if needed when window is scrunched */
-height: 100%;
+  height: 100%;
   /* raising the menu options */
-padding-bottom: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .comic-menu-container > .rows {
   display: flex;
   flex-direction: row;
@@ -403,11 +358,9 @@ padding-bottom: 30px;
   gap: 50px;
   padding: 2px;
 }
-
 .comic-menu-container > .rows h1 {
   font-size: 45px;
 }
-
 .rows a {
   color: white;
 }
@@ -416,12 +369,8 @@ padding-bottom: 30px;
   width: 75px;
   border-radius: 10px;
 }
-
-
 .sub-menu {
   flex-direction: column;
-  /* display: flex;
-  justify-items: center; */
 }
 
 /* ***************************************** COMIC PAGES ***************************************** */
@@ -434,18 +383,15 @@ padding-bottom: 30px;
   justify-content: center;
   align-items: center;
 }
-
 .annoyed {
   /* fixes the navigation headers in comic to be close to / in line with the width of the comic pages (update this variable if you resize the comic pages) */
   justify-content: space-between;
 }
-
 .annoyed h3 {
   /* if current comic width is set to 56vw, and you want each div about 1/3 of that */
   width: 18.6vw;
   text-align: center;
 }
-
 .comic-box-container {
   background-color: black;
   height: 100%;
@@ -456,7 +402,6 @@ padding-bottom: 30px;
   gap: 10px;
   /* padding: 20px 0px 0px 0px; */
 }
-
 /* ABSOLUTE LIFE HACK is setting the image to a size relative to the view window so it automatically adjusts to your window size. */
 /* here, i have set the max width of the submenu div called 'annoyed' and its comic pages below to a fixed width relative to the vw */
 
@@ -464,23 +409,17 @@ padding-bottom: 30px;
 .annoyed, .comic-box-container img {
   width: 56vw;
 }
-
-
 /* ***************************************** LORE PAGE ***************************************** */
-
 .biggest-lore-box {
   flex-direction: column;
 }
-
 .biggest-lore-box p {
   margin: 0px;
 }
-
 /* making every image in the main body thing (not footer) with soft corners */
 .biggest-lore-box img {
   border-radius: 5px;
 }
-
 /* setting flex properties for most divs */
 .lore-header, .lore-box, .fanart-container, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
   display: flex;
@@ -504,21 +443,17 @@ padding-bottom: 30px;
   /* this padding is equal to the paragraph standard padding (16px) plus the current lore + trivia box padding (20px) then added a few extra pixels wider than that*/
   justify-content: center;
 }
-
 .lore-box img {
   width: 200px;
 }
-
 .lore-box, .trivia-box {
   gap: 50px;
   justify-content: space-around;
   padding: 0px 7vw 20px 7vw;
 }
-
 .lore-container-2 {
   border-bottom: 1px solid white; 
 }
-
 /* .faq-paragraph p, .lore-paragraph p, .trivia-paragraph p {
   setting width below will mess up stuff
   width: 350px;
@@ -527,7 +462,6 @@ padding-bottom: 30px;
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
 }
-
 /* ***************************************** LORE PAGE ***************************************** */
 .lore-fanart {
   flex-direction: column;
@@ -544,33 +478,26 @@ padding-bottom: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .fanart-container img {
   width: 250px;
-    height: auto;
-    flex: none;
-    padding: 15px;
+  height: auto;
+  flex: none;
+  padding: 15px;
 }
-
 #fanart-header h1 {
   padding-bottom: 26px;
 }
-
 .fanart-container img {
-border-radius: 20px;
+  border-radius: 20px;
 }
-
 /* ***************************************** media queries ***************************************** */
 @media (max-width: 1128px) {
   .both-heroes {
     padding: 20px 0px 45px 0px;
   } 
 }
-
-
 /* narrower query (when you reach a 1062 pixel width aka when the serj pic on the homepage wraps over, do...) */
 @media (max-width: 1062px) {
-
   /* reformats grey notice on homepage */
   .grey-notice {
     flex-wrap: wrap;
@@ -581,19 +508,15 @@ border-radius: 20px;
     gap: 45px;
     flex-direction: row;
   }
-
   #shavo-icon {
     padding: 0px 50px;
   }
-
 }
-
 @media (max-width: 902px) {
     /* minor padding adjustment (the padding right 40px got taken away) */
     .left-hero {
       padding: 0px 0px 80px 0px;
     }
-
     .lore-box, .trivia-box {
       flex-wrap: wrap;
       /* make gap smaller once all items have been flex wrapped */
@@ -603,43 +526,32 @@ border-radius: 20px;
       /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
       margin-top: 33px;
     }
-
 }
-
 /* narrower query (when you reach an 800 pixel width do...) */
 @media (max-width: 800px) {
-
   .comic-menu-container > .rows h1 {
     font-size: 5vw;
   }
-
   .comic-menu-container > .rows {
     gap: 5vw;
   }
-
-
 /* all comic pages take up more space on the screen now for mobile pages */
 /* DONT FORGET THE COMMA BETWEEN CLASSES (that's why it wasn't working) */
   .annoyed, .comic-box-container img {
     width: 95vw;
   }
-
   .rows h1 {
     flex-wrap: wrap;
     font-size: 6vw;
   }
 }
-
 @media (max-width: 642px) {
   .button-box {
     gap: 10px;
   }
 }
-
 /* narrower query (when you reach a 600 pixel width do...) */
 @media (max-width: 600px) {
-
-
   /* allows images like 3rd eye serj accent piece and spooky shavo to fill whole width of page for smaller displays */
   img {
     max-width: 100vw;
@@ -648,12 +560,10 @@ border-radius: 20px;
   .shavo-block {
     height: auto;
   }
-
   /* center left hero on homepage (padding was previously used in a strange way for desktop (like 0 40 80 0))*/
   .left-hero {
     padding: 0px 30px 80px 30px;
   }
-
   /* decrease the main THIRD EYE red header font at top to 30px so that eye logos fit and overall look is centered */
   .header h1 {
     font-size: 30px;
@@ -662,25 +572,20 @@ border-radius: 20px;
    /* closes the gap between all the character descriptions for mobile */
     gap: 10px;
   }
-
   .footer {
     flex-direction: column-reverse;
   }
 }
-
 @media (max-width: 375px) {
   /* give header less padding to allow triangles in the logo to breathe) */
-
   .header {
     padding: 0rem 1rem;
   }
-
   /* allow the triangles to wrap in the header if things get too tight */
   .title-tank {
     flex-wrap: wrap;
     justify-content: center;
   }
-
 /* for super skinny dimensions, allow social media icons to form into a square not a straight line */
   .social-media-container {
     flex-wrap: wrap;
