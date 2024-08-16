@@ -609,11 +609,16 @@ padding-bottom: 40px;
 .lore-box, .materials-box {
   gap: 50px;
   justify-content: space-around;
-  width: 80vw;
+  /* flex-wrap: wrap; */
+  padding: 0px 7vw;
 }
 /* .lore-container-2 {
   height: 300px;
 } */
+
+.faq-paragraph p, .lore-paragraph p {
+  min-width: 350px;
+}
 .lore-materials {
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
@@ -630,6 +635,6 @@ padding-bottom: 40px;
   /* subject to change height here */
   height: 200px;
   /* makes whole background of fanart tank white not black */
-  width: 90vw;
+  width: 95vw;
   justify-content: center;
 }
