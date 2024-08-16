@@ -414,6 +414,7 @@ padding-bottom: 40px;
 /* SET COMIC MENU PICS ON THE LEFT IMAGE DIMENSIONS */
 .rows img {
   width: 75px;
+  border-radius: 10px;
 }
 
 
