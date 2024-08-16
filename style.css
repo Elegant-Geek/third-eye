@@ -593,6 +593,11 @@ padding-bottom: 40px;
   margin: 0px;
 }
 
+/* making every image in the main body thing (not footer) with soft corners */
+.biggest-lore-box img {
+  border-radius: 5px;
+}
+
 /* setting flex properties for most divs */
 .lore-header, .lore-box, .biggest-lore-box, .faq-paragraph, .lore-paragraph, .materials-box, .lore-materials, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-materials {
   display: flex;
@@ -614,7 +619,8 @@ padding-bottom: 40px;
 .lore-box, .materials-box {
   gap: 50px;
   justify-content: space-around;
-  flex-wrap: wrap;
+  /* DISABLING FLEX WRAP WRAP HERE */
+  /* flex-wrap: wrap; */
   padding: 0px 7vw;
 }
 .lore-container-2 {
@@ -623,7 +629,8 @@ padding-bottom: 40px;
 }
 
 /* .faq-paragraph p, .lore-paragraph p, .materials-paragraph p {
-  max-width: 350px;
+  setting width below will mess up stuff
+  width: 350px;
 } */
 .lore-materials {
   background: rgb(145,10,10);
