@@ -511,20 +511,23 @@ like there was a small gap between the image and bottom of the image div contain
   #shavo-icon {
     padding: 0px 50px;
   }
+  .lore-box, .trivia-box {
+    flex-wrap: wrap;
+    /* make gap smaller once all items have been flex wrapped */
+    gap: 5px;
+  }
+  .trivia-box img, .lore-box {
+    /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
+    margin-top: 35px;
+  }
+  .materials-paragraph p {
+    padding: 0px 15vw;
+  }
 }
 @media (max-width: 902px) {
     /* minor padding adjustment (the padding right 40px got taken away) */
     .left-hero {
       padding: 0px 0px 80px 0px;
-    }
-    .lore-box, .trivia-box {
-      flex-wrap: wrap;
-      /* make gap smaller once all items have been flex wrapped */
-      gap: 5px;
-    }
-    .trivia-box img, .lore-box {
-      /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
-      margin-top: 35px;
     }
 }
 /* narrower query (when you reach an 800 pixel width do...) */
