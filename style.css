@@ -436,7 +436,7 @@ like there was a small gap between the image and bottom of the image div contain
 }
 .lore-container-2, .lore-trivia {
   /* give these two extra top/upper padding */
-  padding-top: 33px;
+  padding-top: 35px;
 }
 .lore-header {
   /* exclude the extra padding: for the first header "lore"; */
@@ -444,7 +444,7 @@ like there was a small gap between the image and bottom of the image div contain
   justify-content: center;
 }
 .lore-box img {
-  width: 200px;
+  width: 250px;
 }
 .lore-box, .trivia-box {
   gap: 50px;
@@ -524,7 +524,7 @@ like there was a small gap between the image and bottom of the image div contain
     }
     .trivia-box img, .lore-box {
       /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
-      margin-top: 33px;
+      margin-top: 35px;
     }
 }
 /* narrower query (when you reach an 800 pixel width do...) */
