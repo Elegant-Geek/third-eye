@@ -22,10 +22,16 @@ a label {
 a:hover {
   color: white;
 }
+p, ul > li {
+  color: white;
+  line-height: 1.5;
+}
 p {
   padding: 16px 0px;
-  line-height: 1.5;
-  color: white;
+}
+
+ul{
+  padding: 0px;
 }
 /* ALL DIVS GIVEN BORDER-BOX to avoid redundancy in code and to make formatting consistent when adding padding! */
 div {
@@ -371,7 +377,7 @@ like there was a small gap between the image and bottom of the image div contain
   width: 75px;
   border-radius: 10px;
 }
-.sub-menu {
+.sub-menu, .trivia-box {
   flex-direction: column;
 }
 
@@ -417,6 +423,7 @@ like there was a small gap between the image and bottom of the image div contain
 }
 .biggest-lore-box p {
   margin: 0px;
+  padding: 10px;
 }
 /* making every image in the main body thing (not footer) with soft corners */
 .biggest-lore-box img {
