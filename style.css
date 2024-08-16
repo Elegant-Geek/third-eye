@@ -614,16 +614,16 @@ padding-bottom: 40px;
 .lore-box, .materials-box {
   gap: 50px;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding: 0px 7vw;
 }
 .lore-container-2 {
   border: 1px solid white; 
 }
 
-.faq-paragraph p, .lore-paragraph p, .materials-paragraph p {
-  max-width: 350px;
-}
+/* .faq-paragraph p, .lore-paragraph p, .materials-paragraph p {
+  min-width: 350px;
+} */
 .lore-materials {
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
