@@ -434,9 +434,8 @@ like there was a small gap between the image and bottom of the image div contain
 .lore-container-1 {
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 15%, rgba(0,0,0,1) 100%);
-  border-bottom: 1px solid white; 
 }
-.lore-container-2, .lore-trivia {
+.lore-container-1, .lore-container-2, .lore-trivia {
   /* give these two extra top/upper padding */
   padding-top: 35px;
 }
@@ -454,6 +453,7 @@ like there was a small gap between the image and bottom of the image div contain
   padding: 0px 7vw 20px 7vw;
 }
 .lore-container-2 {
+  border-top: 1px solid white; 
   border-bottom: 1px solid white; 
 }
 /* .materials-paragraph p, .lore-paragraph p, .trivia-paragraph p {
@@ -523,7 +523,7 @@ like there was a small gap between the image and bottom of the image div contain
     margin-top: 35px;
   }
   .materials-paragraph p {
-    padding: 5vw 15vw;
+    padding: 3vw 15vw;
   }
 }
 @media (max-width: 902px) {
