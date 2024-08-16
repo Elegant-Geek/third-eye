@@ -645,8 +645,8 @@ padding-bottom: 30px;
 .fanart-container {
   background-color: white;
   /* subject to change height here */
-  height: 200px;
+  height: 800px;
   /* makes whole background of fanart tank white not black */
-  width: 300px;
+  width: 1000px;
   justify-content: center;
 }
