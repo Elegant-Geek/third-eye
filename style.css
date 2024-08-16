@@ -521,7 +521,7 @@ like there was a small gap between the image and bottom of the image div contain
     margin-top: 35px;
   }
   .materials-paragraph p {
-    padding: 0px 15vw;
+    padding: 5vw 15vw;
   }
 }
 @media (max-width: 902px) {
