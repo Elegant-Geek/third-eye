@@ -480,7 +480,8 @@ like there was a small gap between the image and bottom of the image div contain
 }
 .trivia-mind-image-box {
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 66vw;
 }
 .trivia-box {
   gap: 10px;
