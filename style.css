@@ -557,6 +557,7 @@ like there was a small gap between the image and bottom of the image div contain
   }
   .trivia-box img, .lore-box {
     /* NOTE: lore header top padding is currently this 33px too so adjust this variable if you change the lore header top padding */
+    /* disgregard this because there is more space under a header than above by default nature of the font ugh there will be a slight few pixel difference to keep it looking vertically centered*/
     margin-top: 35px;
   }
   .lore-header h1 {
@@ -568,7 +569,9 @@ like there was a small gap between the image and bottom of the image div contain
     and creates more space between the header and the image than needed. */
   padding-bottom: 0px;
 }
-  .materials-paragraph p {
+/* his code below applies some padding at this break point to prevent annoying single image being flex-wrapped at a time. 
+it just brings the paragraphs along with the first item to wrap so it looks cleaner. */
+  .materials-paragraph p, .lore-paragraph {
     padding: 3vw 15vw;
   }
 }
