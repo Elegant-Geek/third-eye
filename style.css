@@ -25,6 +25,8 @@ a:hover {
 p, ul > li {
   color: white;
   line-height: 1.5;
+  /* the margin below creates an indent for the bullet point spacing */
+  margin-left: 24px;
 }
 p {
   padding: 16px 0px;
@@ -433,7 +435,7 @@ like there was a small gap between the image and bottom of the image div contain
   border-radius: 5px;
 }
 /* setting flex properties for most divs */
-.lore-header, .lore-box, .fanart-container, .biggest-lore-box, .materials-paragraph, .lore-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
+.lore-header, .lore-box, .fanart-container, .biggest-lore-box, .materials-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
   display: flex;
   align-items: center;
 }
@@ -441,6 +443,7 @@ like there was a small gap between the image and bottom of the image div contain
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .lore-container-1 {
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 15%, rgba(0,0,0,1) 100%);
