@@ -167,6 +167,9 @@ button > a {
   text-align: justify;
   /* idk if i will add the trivia div with this formatting but it is unlikely if it is decidedly in bullet point form */
 }
+.trivia-paragraph {
+  width: 66%;
+}
 .about-section h1 {
   padding-bottom: 10px;
 }
