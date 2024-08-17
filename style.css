@@ -169,7 +169,7 @@ button > a {
   text-align: justify;
   /* idk if i will add the trivia div with this formatting but it is unlikely if it is decidedly in bullet point form */
 }
-.trivia-paragraph {
+.trivia-paragraph, .lore-paragraph {
   width: 66%;
 }
 .about-section h1 {
@@ -448,6 +448,9 @@ like there was a small gap between the image and bottom of the image div contain
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(145,10,10,1) 0%, rgba(75,5,5,1) 15%, rgba(0,0,0,1) 100%);
 }
+.lore-container-1 > .lore-box {
+  flex-direction: column;
+}
 .lore-container-1, .lore-container-2, .lore-trivia {
   /* give these three extra top/upper padding */
   padding-top: 35px;
@@ -486,6 +489,9 @@ like there was a small gap between the image and bottom of the image div contain
  /* .lore-paragraph > p, ul > li {
   text-align: justify;
  } */
+  .lore-paragraph {
+    margin-top: -35px;
+  }
 .lore-trivia {
   background: rgb(145,10,10);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(75,5,5,1) 50%, rgba(145,10,10,1) 100%);
@@ -571,7 +577,7 @@ like there was a small gap between the image and bottom of the image div contain
 }
 /* his code below applies some padding at this break point to prevent annoying single image being flex-wrapped at a time. 
 it just brings the paragraphs along with the first item to wrap so it looks cleaner. */
-  .materials-paragraph p, .lore-paragraph {
+  .materials-paragraph p {
     padding: 3vw 15vw;
   }
 }
