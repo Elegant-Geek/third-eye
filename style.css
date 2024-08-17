@@ -169,8 +169,10 @@ button > a {
   text-align: justify;
   /* idk if i will add the trivia div with this formatting but it is unlikely if it is decidedly in bullet point form */
 }
+
+
 .trivia-paragraph, .lore-paragraph {
-  width: 66%;
+  width: 80%;
 }
 .about-section h1 {
   padding-bottom: 10px;
@@ -435,7 +437,7 @@ like there was a small gap between the image and bottom of the image div contain
   border-radius: 5px;
 }
 /* setting flex properties for most divs */
-.lore-header, .lore-box, .fanart-container, .biggest-lore-box, .materials-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia {
+.lore-header, .lore-box, .fanart-container, .biggest-lore-box, .materials-paragraph, .trivia-box, .lore-trivia, .lore.fanart, .fanart-container, .lore-container-1, .lore-container-2, .lore-trivia, .trivia-mind-image-box {
   display: flex;
   align-items: center;
 }
@@ -450,6 +452,7 @@ like there was a small gap between the image and bottom of the image div contain
 }
 .lore-container-1 > .lore-box {
   flex-direction: column;
+  gap: 20px;
 }
 .lore-container-1, .lore-container-2, .lore-trivia {
   /* give these three extra top/upper padding */
@@ -472,8 +475,12 @@ like there was a small gap between the image and bottom of the image div contain
   justify-content: space-around;
   padding: 0px 7vw 20px 7vw;
 }
-.lore-box {
+.lore-box, .trivia-mind-image-box {
   gap: 50px;
+}
+.trivia-mind-image-box {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .trivia-box {
   gap: 10px;
@@ -521,11 +528,10 @@ like there was a small gap between the image and bottom of the image div contain
 .wide-lore-page-images{
   display: flex;
   /* set width of the tattoo boys lineup image and mind image at the bottom of it */
-  width: 55vw;
+  width: 66vw;
   align-items: center;
   justify-content: center;
 }
-
 .wide-lore-page-images img {
   width: inherit;
 }
