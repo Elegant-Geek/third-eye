@@ -451,6 +451,8 @@ like there was a small gap between the image and bottom of the image div contain
 .lore-container-1, .lore-container-2, .lore-trivia {
   /* give these two extra top/upper padding */
   padding-top: 35px;
+  /* PREVENTS BLACK ON EITHER SIDE OF DIV WHEN SMALL ZOOM OUT */
+  width: 100%;
 }
 .lore-header {
   /* exclude the extra padding: for the first header "lore"; */
@@ -507,7 +509,7 @@ like there was a small gap between the image and bottom of the image div contain
 .wide-lore-page-images{
   display: flex;
   /* set width of the tattoo boys lineup image and mind image at the bottom of it */
-  width: 80%;
+  width: 55vw;
   align-items: center;
   justify-content: center;
 }
