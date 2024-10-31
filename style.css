@@ -26,6 +26,8 @@ p, ul > li {
   color: white;
   line-height: 1.5;
   /* the margin below creates an indent for the bullet point spacing */
+}
+.lore-paragraph ul > li {
   margin-left: 24px;
 }
 p {
@@ -68,7 +70,7 @@ button > a {
   display: flex;
   /* space around for header rather than space between looks cleaner with a minimized window because it keeps everything still centered! */
   justify-content: space-around;
-  gap: 25px;
+  gap: 50px;
   /* allow elements to wrap when window is collapsed */
   flex-wrap: wrap;
   font-size: 30px;
@@ -87,7 +89,7 @@ button > a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 65px;
   flex-wrap: wrap;
 }
 .left-hero {
