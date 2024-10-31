@@ -25,9 +25,9 @@ a:hover {
 p, ul > li {
   color: white;
   line-height: 1.5;
-  /* the margin below creates an indent for the bullet point spacing */
 }
 .lore-paragraph ul > li {
+    /* the margin below creates an indent for the bullet point spacing */
   margin-left: 24px;
 }
 p {
