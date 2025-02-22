@@ -289,6 +289,7 @@ this removes the stupid weird underhanging space (literally like 4px) from the d
 like there was a small gap between the image and bottom of the image div container for some reason */
 #shavo-icon img {
   height: 144px;
+  width: 144px;
 }
 /* SOURCE: https://stackoverflow.com/questions/71356198/how-to-change-the-background-of-a-button-with-a-link-on-hover */
 .grey-notice {
