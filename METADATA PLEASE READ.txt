@@ -38,7 +38,7 @@ commit new changes and check local index.html file to see ur images are unaffect
 
 extra tip: view metadata of one image: exiftool "C:\Users\legop\Desktop\full programming backup 12.19.22\THIRD EYE\images\levitate.png"
 
-
+NOTE: MAKE SURE YOU CHECK / HIT ALL DIRECTORIES WITH IMAGES!!!!!!!! (I had previously only had it applied to reg images not the comic pages too)
 LAST STEP IS TO VERIFY IT WORKED! 
 YOU SHOULD MANUALLY GO TO GITHUB HOST SITE AFTER A FEW MINS, DOWNLOAD IMAGE, 
 THEN SEE IF LOCATION IS SAVED IN DESCRIPTION (AND PRAY IT ISNT)
