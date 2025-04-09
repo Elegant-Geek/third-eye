@@ -1,0 +1,54 @@
+
+
+turn off location saving iphone in settings both in iphone 13 mini and old iphone 6
+(anyone who saves an image from your third eye or target sites can fuckin see your house)
+^^ prevents future incidents
+
+
+
+INSTALL EXIFTOOL
+GOODLE "exiftool remove metadata from whole folder"
+
+https://exiftool.org/install.html#Windows <<<<< installation instructions
+remove the (-k) in the name so it says "exiftool.exe"
+open a new window of it
+
+
+open command line (type cmd)
+
+-cmd to open cmd box
+-type          cd C:\exiftool-13.27_64    << example!
+-then type     exiftool.exe                to run it
+-type         exiftool "C:\Users\legop\Desktop\full programming backup 12.19.22\THIRD EYE\images"   to view all metadata in the proj   
+-type exiftool -all:all= -r /path/to/files/ to delete all metadate within a directory!!!
+
+For one file example:
+exiftool -all= FILES
+exiftool -all= LM85ER_20190925114526.jpg         (example)
+source https://exiftool.org/forum/index.php?topic=10479.0#:~:text=Deleting%20every%20piece%20of%20metadata,be%20removed%20from%20a%20file.
+
+For a whole directory:
+exiftool -all:all= -r /path/to/files/
+exiftool -all:all= -r "C:\Users\legop\Desktop\full programming backup 12.19.22\THIRD EYE\images"
+source: https://www.reddit.com/r/pop_os/comments/15pelnm/anyone_know_how_to_use_exiftool_to_delete_all/
+
+NOTE: it will tell you "Warning: ICC_Profile deleted. Image colors may be affected" for every image it has altered
+
+then open a new command line window got to proj directory then hit git add .
+commit new changes and check local index.html file to see ur images are unaffected (wiping the metadata does NOT change the name, but "original" files have been created and saved as backups it seems)
+
+extra tip: view metadata of one image: exiftool "C:\Users\legop\Desktop\full programming backup 12.19.22\THIRD EYE\images\levitate.png"
+
+
+
+EXAMPLE cd C:\Users\legop\Desktop\full programming backup 12.19.22\THIRD EYE\images
+
+Type "exiftool" followed by a SPACE on the cmd window.
+
+
+
+
+C:\Users\legop\Desktop\full programming backup 12.19.22\THIRD EYE\images
+
+
+
